@@ -20,6 +20,3 @@
         ;
 };
 
-&qspi {
-    status = "disabled";
-};
