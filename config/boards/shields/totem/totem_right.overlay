@@ -12,8 +12,6 @@
 
 &kscan0 {
 
-    diode-direction = "row2col";
-    
     col-gpios
         = <&xiao_d 8 GPIO_ACTIVE_HIGH>
         , <&xiao_d 9 GPIO_ACTIVE_HIGH>
