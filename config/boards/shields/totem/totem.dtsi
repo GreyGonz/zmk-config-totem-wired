@@ -12,11 +12,6 @@
         zmk,matrix_transform = &default_transform;
     };
 
-    wired_split {
-        compatible = "zmk,wired-split";
-        device = <&xiao_serial>;
-    };
-
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <10>;
@@ -46,8 +41,4 @@
             , <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
-};
-
-&xiao_serial {
-    status = "okay";
 };
