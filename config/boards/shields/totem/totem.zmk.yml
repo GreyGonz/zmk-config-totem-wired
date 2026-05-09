@@ -1,9 +1,10 @@
 file_format: "1"
 id: totem
-name: TOTEM
+name: TOTEM_WIRED
 type: shield
 url: https://github.com/GEIGEIGEIST/TOTEM
-requires: [seeeduino_xiao_ble]
+requires: 
+  - xiao_ble//zmk
 features:
   - keys
 siblings:
